@@ -89,7 +89,7 @@ const ProfilePage: React.FC = () => {
                                     <input
                                         type="password"
                                         placeholder="Enter new password"
-                                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 p-2"
+                                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 p-2 text-gray-900 bg-gray-50 text-base"
                                     />
                                 </div>
 
@@ -101,7 +101,7 @@ const ProfilePage: React.FC = () => {
                                     <input
                                         type="password"
                                         placeholder="Confirm new password"
-                                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 p-2"
+                                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 p-2 text-gray-900 bg-gray-50 text-base"
                                     />
                                 </div>
 

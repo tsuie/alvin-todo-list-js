@@ -19,7 +19,7 @@ const LoginPage: React.FC = () => {
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 p-2"
+                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 p-2 text-gray-900 bg-gray-50 text-base"
                         />
                     </div>
                     <div className="mb-6">
@@ -27,7 +27,7 @@ const LoginPage: React.FC = () => {
                         <input
                             type="password"
                             placeholder="Enter your password"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 p-2"
+                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 p-2 text-gray-900 bg-gray-50 text-base"
                         />
                     </div>
                     <button
