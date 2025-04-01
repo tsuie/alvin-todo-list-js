@@ -12,7 +12,7 @@ const Dashboard: React.FC = () => {
             <main className="flex-grow px-8 py-6">
                 <h1 className="text-2xl font-bold text-gray-800">Welcome, John Doe!</h1>
                 <p className="text-gray-600 mt-4">
-                    Here's an overview of your tasks and progress:
+                    Here&apos;s an overview of your tasks and progress:
                 </p>
 
                 {/* Dashboard Content Grid */}

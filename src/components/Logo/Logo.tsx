@@ -22,7 +22,7 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = 200 }) => {
                     aria-labelledby="logo-title"
                     preserveAspectRatio="xMidYMid meet"
                 >
-                    <title id="logo-title">Alvin's Todo App Logo</title>
+                    <title id="logo-title">Alvin&apos;s Todo App Logo</title>
 
                     {/* Icon: Two overlapping rectangles (representing tasks) */}
                     <rect
@@ -55,7 +55,7 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = 200 }) => {
                         className="fill-green-900 text-[28px] font-bold"
                         fontFamily="Arial, sans-serif"
                     >
-                        Alvin's Todo
+                        Alvin&apos;s Todo
                     </text>
 
                     {/* Tagline beneath the title */}

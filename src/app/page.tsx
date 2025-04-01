@@ -9,7 +9,7 @@ export default function Home() {
           <Logo className="w-36 h-36" size={144} />
 
           <h1 className="text-4xl font-bold text-gray-800 mt-6">
-            Alvin's Todo List App
+            Alvin&apos;s Todo List App
           </h1>
           <p className="text-gray-600 mt-4 max-w-xl">
             Your ultimate companion for staying organized and productive.
@@ -22,7 +22,7 @@ export default function Home() {
           {/* Features Section */}
           <div className="flex-1 bg-white rounded-lg shadow-lg p-8 flex flex-col justify-between">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              Why Choose Alvin's Todo List App?
+              Why Choose Alvin&apos;s Todo List App?
             </h2>
             <ul className="text-gray-600 space-y-2">
               <li>✅ Easy-to-use interface for task management</li>
@@ -56,7 +56,7 @@ export default function Home() {
 
         <footer className="mt-12 text-center text-gray-600 text-sm">
           <p>
-            © {new Date().getFullYear()} Alvin's Todo List App. All rights reserved.
+            © {new Date().getFullYear()} Alvin&apos;s Todo List App. All rights reserved.
           </p>
         </footer>
       </div>
