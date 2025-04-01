@@ -1,0 +1,33 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        fill="none"
+        role="img"
+        aria-label="Alvin's Todo List Logo"
+>
+    <!-- Circle Background -->
+    <circle cx="50" cy="50" r="48" stroke="#4CAF50" stroke-width="4" fill="#E8F5E9" />
+
+    <!-- Checkmark Icon -->
+    <path
+            d="M35 50l10 10 20-30"
+            stroke="#4CAF50"
+            stroke-width="6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"
+    />
+
+    <!-- Text Below -->
+    <text
+            x="50"
+            y="85"
+            text-anchor="middle"
+            fill="#4CAF50"
+            font-size="10"
+            font-family="Arial, sans-serif"
+            font-weight="bold"
+    >
+        Alvin's Todo
+    </text>
+</svg>

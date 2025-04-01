@@ -1,68 +1,49 @@
-export default function DashboardPage() {
+// File: Dashboard.tsx
+import React from "react";
+import Header from "@/components/Header";
+
+const Dashboard: React.FC = () => {
     return (
-        <div className="flex h-screen">
-            {/* Sidebar */}
-            <aside className="w-64 bg-gray-800 text-white flex flex-col">
-                <div className="p-4 text-lg font-bold border-b border-gray-700">
-                    Dashboard
-                </div>
-                <nav className="flex-grow p-4">
-                    <ul>
-                        <li className="mb-2">
-                            <a
-                                href="#"
-                                className="block p-2 rounded hover:bg-gray-700"
-                            >
-                                Home
-                            </a>
-                        </li>
-                        <li className="mb-2">
-                            <a
-                                href="#"
-                                className="block p-2 rounded hover:bg-gray-700"
-                            >
-                                Analytics
-                            </a>
-                        </li>
-                        <li className="mb-2">
-                            <a
-                                href="#"
-                                className="block p-2 rounded hover:bg-gray-700"
-                            >
-                                Settings
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div className="p-4 border-t border-gray-700">
-                    <a
-                        href="#"
-                        className="block p-2 rounded hover:bg-gray-700 text-red-400"
-                    >
-                        Logout
-                    </a>
-                </div>
-            </aside>
+        <div className="min-h-screen bg-gray-100 flex flex-col">
+            {/* Header */}
+            <Header />
 
             {/* Main Content */}
-            <main className="flex-grow bg-gray-100 p-6">
-                <h1 className="text-2xl font-bold mb-4 text-gray-600">Welcome to the Dashboard</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {/* Example Cards */}
-                    <div className="p-4 bg-white shadow rounded">
-                        <h2 className="text-lg font-semibold text-gray-600">Card 1</h2>
-                        <p className="text-gray-600">Content goes here.</p>
+            <main className="flex-grow px-8 py-6">
+                <h1 className="text-2xl font-bold text-gray-800">Welcome, John Doe!</h1>
+                <p className="text-gray-600 mt-4">
+                    Here's an overview of your tasks and progress:
+                </p>
+
+                {/* Dashboard Content Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                    {/* Example Card 1 */}
+                    <div className="bg-white shadow rounded-lg p-6">
+                        <h2 className="text-lg font-bold text-gray-800">
+                            Completed Tasks
+                        </h2>
+                        <p className="text-gray-600 mt-2">15</p>
                     </div>
-                    <div className="p-4 bg-white shadow rounded">
-                        <h2 className="text-lg font-semibold text-gray-600">Card 2</h2>
-                        <p className="text-gray-600">Content goes here.</p>
+
+                    {/* Example Card 2 */}
+                    <div className="bg-white shadow rounded-lg p-6">
+                        <h2 className="text-lg font-bold text-gray-800">
+                            Pending Tasks
+                        </h2>
+                        <p className="text-gray-600 mt-2">5</p>
                     </div>
-                    <div className="p-4 bg-white shadow rounded">
-                        <h2 className="text-lg font-semibold text-gray-600">Card 3</h2>
-                        <p className="text-gray-600">Content goes here.</p>
+
+                    {/* Example Card 3 */}
+                    <div className="bg-white shadow rounded-lg p-6">
+                        <h2 className="text-lg font-bold text-gray-800">
+                            Productivity Score
+                        </h2>
+                        <p className="text-gray-600 mt-2">80%</p>
                     </div>
                 </div>
             </main>
         </div>
     );
-}
+};
+
+export default Dashboard;
